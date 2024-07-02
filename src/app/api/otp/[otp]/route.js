@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 import cors from '../../middleware/cors'
 
 export async function POST(request, {params}) {
-  await cors(request);
+  // await cors(request);
     const {otp} = params
     try {
       const {

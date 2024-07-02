@@ -7,7 +7,7 @@ import cors from '../middleware/cors'       // Assuming you have a sendEmail.js 
 
 export async function POST(request, response) {
 
-  await cors(request, response);
+  // await cors(request, response);
 
   try {
     const { email } = await request.json();

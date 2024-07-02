@@ -6,7 +6,7 @@ import cors from '../middleware/cors'
 
 export async function GET(req, res) {
 
-    await cors(req, res);
+    // await cors(req, res);
     try {
       await connectMongoDB();
   
