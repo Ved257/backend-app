@@ -3,7 +3,7 @@ import Query from "../../models/query";
 import { NextResponse } from "next/server";
 import  {generateOTP} from "../../utils/otpGenerator"
 import { sendEmail } from "../../utils/sendEmail" 
-import cors from '../middleware/cors'       // Assuming you have a sendEmail.js file
+import cors from '../middleware/cors'       
 
 export async function POST(request, response) {
 
